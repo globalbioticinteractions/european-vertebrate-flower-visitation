@@ -1,0 +1,90 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "Vertebrate.visitation.AM.tsv",
+    "dcterms:bibliographicCitation" : "M. Anna, Castellanos, Maria Clara. 2026. Vertebrate Flower Visitation in Europe.",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "interactionTypeName": "visitsFlowersOf",
+    "interactionTypeId": "http://purl.obolibrary.org/obo/RO_0002622",
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "titles" : "http://www.w3.org/ns/prov#wasDerivedFrom",
+        "datatype" : "string"
+      }, {
+        "name" : "http://purl.org/dc/elements/1.1/format",
+        "titles" : "http://purl.org/dc/elements/1.1/format",
+        "datatype" : "string"
+      }, {
+        "name" : "Pollinator Group",
+        "titles" : "Pollinator Group",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "Polinator",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "Plant",
+        "datatype" : "string"
+      }, {
+        "name" : "Visitation Rate (visits per hour per plant)",
+        "titles" : "Visitation Rate (visits per hour per plant)",
+        "datatype" : "string"
+      }, {
+        "name" : "Mean Nectar Volume (microlitres)",
+        "titles" : "Mean Nectar Volume (microlitres)",
+        "datatype" : "string"
+      }, {
+        "name" : "Mean Sugar Concentration (%)",
+        "titles" : "Mean Sugar Concentration (%)",
+        "datatype" : "string"
+      }, {
+        "name" : "Flower Colour",
+        "titles" : "Flower Colour",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "Location",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLatitude",
+        "titles" : "Latitude",
+        "datatype" : "string"
+      }, {
+        "name" : "decimalLongitude",
+        "titles" : "Longitude",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "Source",
+        "datatype" : "string"
+      }, {
+        "name" : "Title",
+        "titles" : "Title",
+        "datatype" : "string"
+      }, {
+        "name" : "Plant Native Status",
+        "titles" : "Plant Native Status",
+        "datatype" : "string"
+      }, {
+        "name" : "habitatName",
+        "titles" : "Habitat Type",
+        "datatype" : "string"
+      }, {
+        "name" : "Successful Pollination",
+        "titles" : "Successful Pollination",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}

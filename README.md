@@ -2,7 +2,7 @@
 
 Configuration to help Global Biotic Interactions (GloBI, https://globalbioticinteractions.org) index: 
 
-M. Anna, Castellanos, Maria Clara. 2026. Vertebrate Flower Visitation in Europe.
+Anneliese Magrath, Nick Balfour, Maria Clara Castellanos. 2026. Vertebrate Flower Visitation in Europe. Personal Communication.
 
 # Example Record
 
